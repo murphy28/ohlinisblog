@@ -16,7 +16,7 @@ export const BASE = '';
 export const SITE_TITLE = "Ohlin Is Blog";
 
 // will be used in the meta tags (and for example shown in search results)
-export const SITE_DESCRIPTION = "Test";
+export const SITE_DESCRIPTION = "A personal blog by Ohlin Arellano, a passionate software developer sharing insights and experiences from projects in web development, robotics, shenanigans, and more.";
 
 // will be used as the icon in the header and the favicon
 export const SITE_FAVICON = "🌕";
