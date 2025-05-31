@@ -38,7 +38,7 @@ export default defineConfig({
     ssr: {
       noExternal: [BASE + "/pagefind/pagefind.js"],
     },
-    plugins: [pagefind()],
+    plugins: [...(pagefind() as any[]).map(plugin => plugin as any)],
     build: {
       rollupOptions: {
         external: [BASE + "/pagefind/pagefind.js"],

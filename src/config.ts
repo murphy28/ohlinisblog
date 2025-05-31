@@ -3,40 +3,40 @@ import type { AccentColor, BaseColor } from "./colors";
 // IMPORTANT SET THOSE TWO VARIABLES:
 // NUMBER ONE:
 // if deployed to github pages, set to https://<your-github-username>.github.io/
-export const SITE = "https://flo-bit.dev";
+export const SITE = "https://blog.ohlinis.me/";
 
 // NUMBER TWO:
 // if repo name is <your-github-username>.github.io set to '/'
 // otherwise set to '/<your-repo-name>'
-export const BASE = "/blog-template";
+export const BASE = "/";
 
 // MORE SETTINGS:
 
 // will be used for the the title and meta tags and in the header (if SITE_NAME is left blank)
-export const SITE_TITLE = "flo-bit's blog template";
+export const SITE_TITLE = "Ohlin Is Blog";
 
 // will be used in the meta tags (and for example shown in search results)
-export const SITE_DESCRIPTION = "Welcome to my blog template! Fork it and make it your own.";
+export const SITE_DESCRIPTION = "Test";
 
 // will be used as the icon in the header and the favicon
-export const SITE_FAVICON = "🙃";
+export const SITE_FAVICON = "🌕";
 
 // will be used in the footer as the name of the author (c) <YEAR> <NAME> - LICENSE
-export const NAME = "flo-bit";
+export const NAME = "Ohlin Arellano";
 
 // will be used in the footer as the license of the content (e.g. "All right reserved" or "CC-BY-SA 4.0")
-export const LICENSE = "MIT licensed.";
+export const LICENSE = "All rights reserved";
 
 // will be used to identify your bluesky account, so that likes and comments can be shown on your posts
-export const BLUESKY_IDENTIFIER = "flo-bit.dev";
+export const BLUESKY_IDENTIFIER = "ohlinis.me";
 
-export const SOURCE_LINK = 'https://github.com/flo-bit/blog-template';
+export const SOURCE_LINK = '';
 
 // will be used to set the base color of the blog
-export const BASE_COLOR: BaseColor = "stone";
+export const BASE_COLOR: BaseColor = "zinc";
 
 // will be used to set the accent color of the blog
-export const ACCENT_COLOR: AccentColor = "pink";
+export const ACCENT_COLOR: AccentColor = "violet";
 
 // will show all icons that are not empty in the footer as links
 export const SOCIAL_LINKS: {
@@ -52,9 +52,8 @@ export const SOCIAL_LINKS: {
   SHOW_RSS?: boolean;
 } = {
   SHOW_RSS: true,
-  BLUESKY_URL: "https://bsky.app/profile/flo-bit.dev",
-  GITHUB_URL: "https://github.com/flo-bit",
-  EMAIL: "flo.bit.dev@gmail.com",
+  BLUESKY_URL: "https://bsky.app/profile/ohlinis.me",
+  GITHUB_URL: "https://github.com/murphy28",
 };
 
 
