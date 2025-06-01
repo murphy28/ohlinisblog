@@ -3,10 +3,7 @@ import {
   BASE,
   MANUAL_DARK_MODE,
   SEARCH_ENABLED,
-  SITE_FAVICON,
-  SITE_NAME,
   SITE_TITLE,
-  SHOW_FAVICON_IN_HEADER,
 } from "../config.ts";
 import ThemeToggle from "./ThemeToggle.astro";
 import HeaderLink from "./HeaderLink.astro";
@@ -33,7 +30,7 @@ const { active } = Astro.props;
           <Fragment set:html={Ohlin} />
           <span
             class="hidden md:block font-bold text-base text-base-950 dark:text-base-50"
-            >{SITE_NAME || SITE_TITLE}</span
+            >{SITE_TITLE}</span
           >
         </div>
       </a>

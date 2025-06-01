@@ -36,7 +36,7 @@ export const SOURCE_LINK = '';
 export const BASE_COLOR: BaseColor = "zinc";
 
 // will be used to set the accent color of the blog
-export const ACCENT_COLOR: AccentColor = "violet";
+export const ACCENT_COLOR: AccentColor = "emerald";
 
 // will show all icons that are not empty in the footer as links
 export const SOCIAL_LINKS: {
@@ -54,6 +54,8 @@ export const SOCIAL_LINKS: {
   SHOW_RSS: true,
   BLUESKY_URL: "https://bsky.app/profile/ohlinis.me",
   GITHUB_URL: "https://github.com/murphy28",
+  LINKEDIN_URL: "https://www.linkedin.com/in/ohlinarellano",
+  YOUTUBE_URL: "https://www.youtube.com/@OhlinIsMe"
 };
 
 
@@ -70,9 +72,3 @@ export const SHOW_IMAGES = true;
 
 // will be used to set the number of posts per page
 export const POSTS_PER_PAGE = 8;
-
-// will be shown in the header, if left blank will instead show the SITE_TITLE
-export const SITE_NAME = "";
-
-// if true, will show the SITE_FAVICON in the header
-export const SHOW_FAVICON_IN_HEADER = true;
